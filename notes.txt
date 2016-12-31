@@ -1,0 +1,39 @@
+Prerequisites
+1- Need to have Node installed on machine.
+----https://nodejs.org/en/
+2- Need to have Git installed on machine.
+----https://git-scm.com/
+
+Getting Started
+1- Need to build folder for project
+2- Create index.js file in root of project folder.
+3- On the terminal
+----A) cd to your project folder
+-------- cd ~/           <---- takes you to your home directory
+--------
+----B) run command:  git init
+----C) run command:  npm init 
+---------Fill in all appropriate questions. You can just hit enter on ones that you dont know answers to.
+
+
+Installing Node project dependencies
+1- Search for your dependency you wish to install on www.npmjs.com
+2- Install dependency
+----A) run command: npm install <dependency-name> --save       <---- This adds dep to deps list in package.json file.
+
+
+Using a Node Dependency
+1- In the file of your choosing, Add the "Import" statement to pull in the node dep.
+----A) var <name-of-dep> = require('<dep-name-from-package.json>');
+2- Use the dep
+----A) <name-of-dep>.<method-you-wish-to-invoke>(<params-here>);
+
+Running your application
+1- Go to terminal
+2- cd to your project folder
+3- run your project
+----A) run command: node index.js
+
+
+General Notes
+-Most Node projects will have there "Main" be the index.js file at the root of the project
