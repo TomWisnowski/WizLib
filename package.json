@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "alexa-sdk": "^1.0.6",
     "noaa-weather": "0.0.2"
   }
 }
